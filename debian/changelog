@@ -1,3 +1,19 @@
+libtext-charwidth-perl (0.04-7) unstable; urgency=low
+
+  [ Steve McIntyre ]
+  * Configure perl C compilation for cross builds
+    Adapted from initial work by Peter Pearse <peter.pearse@linaro.org>
+    Closes: 633955
+
+  [ Anibal Monsalve Salazar ]
+  * Source format is 3.0 (quilt)
+  * Standards-Version is 3.9.2
+  * Fix debian-rules-missing-recommended-target
+  * Fix debhelper-but-no-misc-depends
+  * Fix debian-rules-makemaker-prefix-is-deprecated
+
+ -- Anibal Monsalve Salazar <anibal@debian.org>  Wed, 20 Jul 2011 10:53:48 +1000
+
 libtext-charwidth-perl (0.04-6) unstable; urgency=low
 
   * DH compatibility level is 7
